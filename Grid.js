@@ -1,3 +1,8 @@
+// Description: This file contains a grid for the game of life.
+// It's a class that represents a grid with rows and columns.
+// It has a method to print the grid.
+
+
 class Grid {
     constructor(rows, cols) {
         this.rows = rows;
