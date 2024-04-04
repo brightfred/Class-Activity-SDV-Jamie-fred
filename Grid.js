@@ -18,9 +18,6 @@ class Grid {
         return grid;
     }
 
-    // Other methods for the game of life logic
-
-    // Example method to print the grid
     printGrid() {
         for (let i = 0; i < this.rows; i++) {
             console.log(this.grid[i].join(' '));
